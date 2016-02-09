@@ -51,8 +51,8 @@ body{
   }
 
   div.contact{
-    max-width: 30%;
-    height: 30%;
+    max-width: 40%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
     font-size: 100%;
@@ -83,4 +83,9 @@ body{
 
   .button.send{
     background-color: #006600;
+  }
+
+  .button.image{
+    background-color: #707070;
+    width: 150px;
   }
