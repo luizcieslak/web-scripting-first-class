@@ -1,0 +1,3 @@
+SELECT name FROM foods WHERE color='orange'
+SELECT last_version FROM operational_systems WHERE name='windows'
+SELECT name FROM family WHERE relationship='Cousin'
