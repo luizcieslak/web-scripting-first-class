@@ -10,7 +10,7 @@
     <p id="timestamp"></p>
     <br>
     <h2>This is Luiz's homepage, click in one of the two options below:</h2>
-    <a href="info.html" class="button">More info</a>
-    <a href="contact.html" class="button">Contact me</a>
+    <a href="info.php" class="button">More info</a>
+    <a href="contact.php" class="button">Contact me</a>
   </body>
 </html>

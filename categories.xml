@@ -1,0 +1,22 @@
+<catalog>
+  <category>
+    <id>1</id>
+    <name>Pace University</name>
+    <location>New York</location>
+  </category>
+  <category>
+    <id>2</id>
+    <name>UNESP</name>
+    <location>Bauru</location>
+  </category>
+  <category>
+    <id>3</id>
+    <name>Jobs</name>
+    <location>United States</location>
+  </category>
+  <category>
+    <id>4</id>
+    <name>Other</name>
+    <location>Unknown</location>
+  </category>
+</catalog>

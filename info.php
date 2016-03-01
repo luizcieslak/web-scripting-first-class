@@ -14,9 +14,8 @@
     </div>
 
     <div class="row">
-      <a href="index.html" class="button ">Back</a>
-      <a href="contact.html" class="button ">Contact me</a>
+      <a href="index.php" class="button ">Back</a>
+      <a href="contact.php" class="button ">Contact me</a>
     </div>
-    <a class"button ">dashhdua</a>
   </body>
 </html>

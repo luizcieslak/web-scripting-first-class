@@ -3,18 +3,19 @@
     <title>More Info</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script src="js/main.js"></script>
+    <script src="js/selectCategory.js"></script>
   </head>
   <body>
    <div>
     <h1>Contact me!</h1>
-    <form method="post" action="#" onsubmit="formFeedback()">
+    <form method="post" action="send-message.php" onsubmit="formFeedback()">
       <div class="contact">
         <div class="row">
             <input class="fillparent" type="text" name="name" id="name" value="" placeholder="Name" />
             <input class="fillparent" type="email" name="email" id="email" value="" placeholder="Email" />
         </div>
         <div class="row">
-              <select name="category" id="category" class="fillparent">
+              <select name="category" id="category" class="fillparent" onchange="selectCategory(this.value)">
                 <option value="">- Category -</option>
                 <option value="1">Pace University</option>
                 <option value="2">UNESP</option>
@@ -50,8 +51,8 @@
     </form>
   </div>
     <div class="row">
-      <a href="index.html" class="button ">Back</a>
-      <a href="info.html" class="button ">Informations</a>
+      <a href="index.php" class="button ">Back</a>
+      <a href="info.php" class="button ">Informations</a>
     </div>
   </body>
 </html>
