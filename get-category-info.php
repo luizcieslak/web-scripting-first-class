@@ -25,10 +25,10 @@ for ($i=2;$i<$category->length;$i++) {
 }
 
 if($info[3] == 'Jobs'){
-  echo("Hello Luiz, I would talk with you about a job opportunity in ".$info[5]);
+  echo("Hello Luiz, I would like talk with you about a job opportunity in ".$info[5]);
 }elseif($info[3] == 'Other'){
-  echo("Hello Luiz, I would talk with other thing:");
+  echo("Hello Luiz, I would like talk with other thing:");
 }else{
-  echo("Hello Luiz, I would talk with you about ".$info[3].", which is located in ".$info[5].", ");
+  echo("Hello Luiz, I would like talk with you about ".$info[3].", which is located in ".$info[5].", ");
 }
 ?>
